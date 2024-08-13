@@ -28,9 +28,17 @@
 
 /* semantic color variables for this project */
 :root {
-	--color-blue-1: #94E4E8;
-	--color-blue-2: #40A4BB;
-	--color-blue-3: #2E72A6;
+	--color-blue-1: #C0DEED;
+	--color-blue-2: #008DB8;
+	--color-blue-3: #DDEEF6;
+	--color-blue-4: #2276BB;
+
+	--color-grey-1: #EEEEEE;
+	--color-grey-2: #333333;
+	--color-grey-3: #CCCCCC;
+	--color-grey-4: #EAEAEA;
+	--color-grey-5: #848484;
+	--color-grey-6: #AAAAAA;
 
 	--color-background: var(--color-blue-1);
 	--color-background-soft: var(--vt-c-white-soft);
@@ -41,6 +49,9 @@
 
 	--color-heading: var(--vt-c-text-light-1);
 	--color-text: var(--vt-c-text-light-1);
+
+	--color-button-background: var(--color-grey-4);
+	--color-button-text: var(--color-grey-5);
 
 	--section-gap: 160px;
 }
